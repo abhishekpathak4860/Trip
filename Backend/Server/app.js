@@ -28,13 +28,5 @@ server.get("/", (req, res) => {
 server.get("/get", (req, res) => {
   res.send("hello world");
 });
-// server.use(express.static(path.join(__dirname, "../dist")));
 
-// server.get("/*path", (req, res) => {
-//   res.sendFile(path.join(__dirname, "../dist/index.html"));
-// });
-// server.listen(port, () => {
-//   connectDB();
-//   console.log("server started");
-// });
 export default server;
