@@ -16,7 +16,6 @@ const CorsOptions = {
   origin: ["https://trip-rose.vercel.app"],
   // methods: ["GET", "POST", "PUT", "DELETE"],
   // allowedHeaders: ["Content-Type", "Authorization"],
-  credentials: true,
 };
 server.use(cors(CorsOptions));
 server.use(express.json());
