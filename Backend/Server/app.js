@@ -25,6 +25,9 @@ server.use("/api/user", router);
 server.get("/", (req, res) => {
   res.send("hello");
 });
+server.get("/get", (req, res) => {
+  res.send("hello world");
+});
 // server.use(express.static(path.join(__dirname, "../dist")));
 
 // server.get("/*path", (req, res) => {
