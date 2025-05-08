@@ -13,7 +13,7 @@ const server = express();
 connectDB();
 
 const CorsOptions = {
-  origin: ["https://travel-gold-pi.vercel.app"],
+  origin: ["https://trip-rose.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
