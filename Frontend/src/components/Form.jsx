@@ -28,7 +28,7 @@ export default function Form() {
     }
     try {
       const dataSend = await axios.post(
-        "https://trip-mocha.vercel.app/api/user/send",
+        "https://trip-rr6q.vercel.app/api/user/send",
         formData
       );
       const getData = dataSend.data;
